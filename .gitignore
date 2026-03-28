@@ -1,0 +1,15 @@
+# docs・設計書
+docs/
+
+# ログ
+logs/
+
+# Claude設定
+CLAUDE.md
+.claude/
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
