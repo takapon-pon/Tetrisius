@@ -2,7 +2,7 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import { useGameStore } from '../store/game-store';
 import { drawFromPool } from '../game/block-pool';
 import type { TetrominoShape } from '../game/types';
-import { STORAGE_KEY } from '../game/constants';
+
 
 describe('結合テスト: プール除外→抽選反映', () => {
   beforeEach(() => {
